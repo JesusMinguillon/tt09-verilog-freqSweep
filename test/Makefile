@@ -32,6 +32,7 @@ VERILOG_SOURCES += $(PWD)/gate_level_netlist.v
 endif
 
 # Include the testbench sources:
+VERILOG_SOURCES += $(PWD)/periodCount.v
 VERILOG_SOURCES += $(PWD)/tb.v
 TOPLEVEL = tb
 
